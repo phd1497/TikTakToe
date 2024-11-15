@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+h1{
+    color: #faedcd;
+}
+
+.gameBoard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opponent{
+    all:unset;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    color: aqua;
+}
+
+
+
+.row {
+    display: flex;
+    color: #faedcd;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid turquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-rs{
+    all:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    color: black;
+}
+
